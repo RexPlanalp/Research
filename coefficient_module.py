@@ -9,7 +9,7 @@ k_array = np.arange(0.005,3,0.005) # Sample for coefficients
 E_array = np.arange(0,0.75,0.005) # Samples for angular distributions
 phi_array = np.arange(-2*np.pi,2*np.pi,0.005)
 
-suffix = "_600nm"
+suffix = "_800nm"
 
 # Defines the asymmetry parameter from simulation
 A = np.load("research_files/A" + f"{suffix}" + ".npy")
